@@ -15,6 +15,7 @@ import EssayForm from './tutorials/9-textarea';
 import FlavorForm from './tutorials/9-select';
 import Reservation from './tutorials/9-checkbox';
 import Calculator from './tutorials/10-lifting-state';
+import SignUpDialog from './tutorials/11-composition';
 
 
 function App() {
@@ -41,6 +42,9 @@ function App() {
     <div> 
         <h1>Hello, {formateName(user)}</h1>
         <Calculator />
+        <hr />
+        <SignUpDialog />
+        <hr />
         <Clock />
         <Toggle />
         <LoginControl />
